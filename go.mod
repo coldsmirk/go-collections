@@ -1,4 +1,4 @@
-module github.com/ilxqx/go-collections
+module github.com/coldsmirk/go-collections
 
 go 1.25.0
 

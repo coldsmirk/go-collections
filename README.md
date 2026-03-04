@@ -1,9 +1,9 @@
 # go-collections
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/ilxqx/go-collections.svg)](https://pkg.go.dev/github.com/ilxqx/go-collections)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ilxqx/go-collections)](https://goreportcard.com/report/github.com/ilxqx/go-collections)
-[![Build Status](https://github.com/ilxqx/go-collections/actions/workflows/test.yml/badge.svg)](https://github.com/ilxqx/go-collections/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/ilxqx/go-collections/branch/main/graph/badge.svg)](https://codecov.io/gh/ilxqx/go-collections)
+[![Go Reference](https://pkg.go.dev/badge/github.com/coldsmirk/go-collections.svg)](https://pkg.go.dev/github.com/coldsmirk/go-collections)
+[![Go Report Card](https://goreportcard.com/badge/github.com/coldsmirk/go-collections)](https://goreportcard.com/report/github.com/coldsmirk/go-collections)
+[![Build Status](https://github.com/coldsmirk/go-collections/actions/workflows/test.yml/badge.svg)](https://github.com/coldsmirk/go-collections/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/coldsmirk/go-collections/branch/main/graph/badge.svg)](https://codecov.io/gh/coldsmirk/go-collections)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Generic, fast, and ergonomic collections for Go 1.25+. This library provides a comprehensive set of type-safe, generic data structures with clean APIs, consistent naming, and support for Go's `iter.Seq`/`iter.Seq2` for seamless for-range integration.
@@ -68,7 +68,7 @@ Generic, fast, and ergonomic collections for Go 1.25+. This library provides a c
 ## Installation
 
 ```bash
-go get github.com/ilxqx/go-collections
+go get github.com/coldsmirk/go-collections
 ```
 
 ## Quick Start
@@ -78,7 +78,7 @@ package main
 
 import (
     "fmt"
-    "github.com/ilxqx/go-collections"
+    "github.com/coldsmirk/go-collections"
 )
 
 func main() {
